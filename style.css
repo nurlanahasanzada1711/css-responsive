@@ -820,7 +820,9 @@ ul li {
 
 .contacticon a {
     color: #68796e;
-    ;
+}
+.contacticon a:hover {
+    color: #5fcf80;
 }
 
 .divcontact1 {
@@ -831,7 +833,7 @@ ul li {
 .section5 {
     margin-left: 5%;
 }
-.footer1 {
+.divfooter{
     color: #37423b;
     font-size: 150%;
     background: #eef0ef;
@@ -839,4 +841,53 @@ ul li {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10%;
+}
+.divfooteritem {
+    display: flex;
+}
+.footerlink {
+    margin-left: 5%;
+}
+.footerlink li a {
+    text-decoration: none;
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 70%;
+    padding-top: 3%;
+}
+.footerlink li i {
+    font-size: 70%;
+    color: #777777;
+}
+.footerservice {
+    margin-left: 5%;
+}
+.footerservice a:hover {
+    color: #5fcf80;
+}
+.footerservice li a {
+    text-decoration: none;
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 70%;
+    padding-top: 3%;
+}
+.footerlink a:hover {
+    color: #5fcf80;
+}
+.footerservice li i {
+    font-size: 70%;
+    color: #777777;
+}
+.footerright {
+    margin-left: 10%;
+}
+.footerright input{
+    border-radius: 50px;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
 }
